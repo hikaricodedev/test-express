@@ -1,0 +1,33 @@
+GET http://localhost:3000/api/siswa
+
+###
+
+GET http://localhost:3000/api/siswa/1
+
+###
+
+POST http://localhost:3000/api/siswa
+Content-Type: application/json
+
+{
+  "nis" : "4229024",
+  "nama" : "new",
+  "kelas" : "k"
+}
+
+###
+
+PUT http://localhost:3000/api/siswa/2
+Content-Type: application/json
+
+{
+  "nis" : "422922024",
+  "nama" : "new",
+  "kelas" : "k",
+  "status" : 1
+}
+
+###
+
+DELETE http://localhost:3000/api/siswa/2
+Content-Type: application/json
